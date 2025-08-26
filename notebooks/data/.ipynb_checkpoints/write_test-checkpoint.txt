@@ -1,0 +1,7 @@
+File opened for append.
+Writing line 0
+Writing line 1
+Writing line 2
+Writing line 3
+Writing line 4
+Closing file.
