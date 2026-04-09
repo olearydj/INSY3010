@@ -123,13 +123,12 @@ Hints:
 
 Implement `export_to_csv(data, headers, filename)` to write query results to a CSV file.
 
-Your implementation should:
+Error handling (`try/except`) is provided in the function scaffolding. Your implementation goes inside the `try` block and should:
 
-1. Use a context manager (`with` statement) to open the file safely
+1. Use a context manager (`with` statement) to open the file for writing
 2. Write the header row first (comma-separated column names)
 3. Write each data row (comma-separated values)
-4. Use `try/except` to handle errors gracefully (e.g., invalid path, permission denied)
-5. Return `True` on success, `False` on failure
+4. Return `True` after writing successfully
 
 #### Task 4 - Bonus Challenge
 
@@ -182,11 +181,11 @@ Based on your implementations:
 
 ### Part 4: Error Handling
 
-Consider the role of error handling in your code:
+Consider the role of the `try/except` block provided in Task 3:
 
-1. What specific errors were you catching with `try/except` in Task 3 and why?
-2. Compare two approaches to handling potential errors: checking conditions before acting (e.g., "if the file exists, open it") versus trying the action and handling the failure (e.g., "try to open it; if it fails, handle the error"). Which did you use in Task 3? When might the other approach be better?
-3. What would happen if `export_to_csv` did *not* use `try/except` and the file path was invalid? How would that affect the program?
+1. What does the provided `try/except` block do? What kinds of errors could it catch, and why is it useful to handle them rather than letting the program crash?
+2. Compare two approaches to handling potential errors: checking conditions before acting (e.g., "if the file path is valid, open it") versus trying the action and handling the failure (e.g., "try to open it; if it fails, handle the error"). Which approach does Task 3 use? When might the other approach be better?
+3. What would happen if `export_to_csv` did *not* have the `try/except` block and the file path was invalid? How would that affect the program?
 
 ### Part 5: File I/O
 
@@ -216,5 +215,8 @@ Your grade for this project is based entirely on the reflection. Each part is wo
 | Part | Points |
 |------|--------|
 | Parts 1-6 | 90 |
-| Bonus (Task 4) | 15 |
-| Total available | 105 |
+| Bonus (Task 4) | 10 |
+| Total available | 100 |
+
+The final grade is based on total points / 100, so a 111% is possible.
+
