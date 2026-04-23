@@ -1,0 +1,11 @@
+Order_ID,Region,Country,Item_Type,Sales_Channel,Order_Priority,Order_Date,Ship_Date,Units_Sold,Unit_Price,Unit_Cost,Revenue,Profit
+821131742,Europe,San Marino,Household,Offline,H,12/9/15,12/9/15,9985,668.27,502.54,6672675.95,1654814.0499999996
+244088160,Sub-Saharan Africa,Mali,Household,Online,H,4/6/12,5/13/12,9966,668.27,502.54,6659978.819999999,1651665.1799999997
+992156255,Sub-Saharan Africa,Mauritania,Household,Offline,M,12/28/11,1/25/12,9939,668.27,502.54,6641935.53,1647190.4699999995
+406191432,Sub-Saharan Africa,Sierra Leone,Household,Offline,L,5/1/17,6/1/17,9926,668.27,502.54,6633248.02,1645035.9799999995
+173629748,Asia,Sri Lanka,Household,Offline,C,6/19/17,6/19/17,9756,668.27,502.54,6519642.12,1616861.8799999997
+594280803,Central America and the Caribbean,Saint Vincent and the Grenadines,Household,Offline,M,1/5/14,1/21/14,9751,668.27,502.54,6516300.77,1616033.2299999995
+897029244,North America,Canada,Household,Online,M,6/9/17,7/16/17,9742,668.27,502.54,6510286.34,1614541.6599999997
+775849616,Europe,Portugal,Office Supplies,Offline,C,2/17/12,3/5/12,9997,651.21,524.96,6510146.37,1262121.25
+128821408,Sub-Saharan Africa,Cape Verde,Office Supplies,Online,L,10/13/14,10/13/14,9972,651.21,524.96,6493866.12,1258965.0
+734318292,Europe,Portugal,Office Supplies,Online,M,1/21/14,3/4/14,9956,651.21,524.96,6483446.760000001,1256945.0
