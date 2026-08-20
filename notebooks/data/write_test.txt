@@ -1,3 +1,0 @@
-File opened for append.Writing line 0Writing line 1Writing line 2Writing line 3Writing line 4Closing file.
-this is added text
-Added line.
