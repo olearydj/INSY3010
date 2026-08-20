@@ -1,6 +1,14 @@
-# INSY3010 Jupyter Notebooks
+# INSY3010 Course Materials
 
-This folder contains the files used for INSY 3010 - Programming and Database Applications for ISE. They are provided in [Jupyter Notebook](https://docs.jupyter.org/en/latest/) format (`.ipynb` files) for use on [Google Colab](https://colab.google/).
+This repository contains the public course materials for INSY 3010 —
+Programming and Database Applications for ISE. Most class activities are
+provided as [Jupyter Notebooks](https://docs.jupyter.org/en/latest/) (`.ipynb`
+files) for use on [Google Colab](https://colab.google/).
+
+## Current Materials
+
+- [01a: Course Introduction](lectures/01a-course-introduction/01a-course-introduction.pptx)
+- [01b: Operators and Expressions](lectures/01b-operators-and-expressions/01b-operators-and-expressions.ipynb)
 
 ## Working with Course Notebooks in Google Colab
 
@@ -129,4 +137,3 @@ Both *Think Python*, 3rd Edition and *Python for Everybody* are licensed under t
 ### Licensing
 
 Like those before it, this work is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). Original content and modifications by Danny J. O'Leary ([dan.oleary@auburn.edu](mailto:djo0008@auburn.edu)), building on the works mentioned above. You can find a copy of the full text of the license here: [LICENSE](LICENSE).
-
