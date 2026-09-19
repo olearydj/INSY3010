@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1040" viewBox="0 0 1100 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Relationships among Python programs, names, and objects</title>
+  <desc id="desc">Programs consist of statements, which usually contain expressions. Expressions evaluate to objects, and names reference objects. Every object has a type, value or state, and identity.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#343434"/>
+    </marker>
+    <style>
+      .box { fill: #f0efff; stroke: #7765e3; stroke-width: 2.5; rx: 8; }
+      .line { fill: none; stroke: #343434; stroke-width: 2.5; marker-end: url(#arrow); }
+      .node { fill: #222; font: 600 25px Arial, Helvetica, sans-serif; text-anchor: middle; }
+      .detail { fill: #222; font: 21px Arial, Helvetica, sans-serif; text-anchor: middle; }
+      .label-bg { fill: #fff; opacity: 0.94; }
+      .label { fill: #343434; font: 20px Arial, Helvetica, sans-serif; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect width="1100" height="1040" fill="#ffffff"/>
+
+  <rect class="box" x="380" y="35" width="340" height="90"/>
+  <text class="node" x="550" y="90">Programs / scripts</text>
+
+  <path class="line" d="M 550 125 L 550 190"/>
+  <rect class="label-bg" x="486" y="143" width="128" height="31"/>
+  <text class="label" x="550" y="166">consist of</text>
+
+  <rect class="box" x="345" y="190" width="410" height="125"/>
+  <text class="node" x="550" y="235">Statements</text>
+  <text class="detail" x="550" y="271">alter program state</text>
+  <text class="detail" x="550" y="298">or produce output</text>
+
+  <path class="line" d="M 550 315 L 550 390"/>
+  <rect class="label-bg" x="470" y="335" width="160" height="31"/>
+  <text class="label" x="550" y="358">usually contain</text>
+
+  <rect class="box" x="215" y="390" width="500" height="165"/>
+  <text class="node" x="465" y="436">Expressions</text>
+  <text class="detail" x="465" y="474">may combine literals, names, operators,</text>
+  <text class="detail" x="465" y="504">function calls, and other expressions</text>
+
+  <rect class="box" x="805" y="425" width="220" height="95"/>
+  <text class="node" x="915" y="482">Names</text>
+
+  <path class="line" d="M 465 555 C 465 615, 500 635, 535 665"/>
+  <rect class="label-bg" x="375" y="585" width="137" height="31"/>
+  <text class="label" x="443" y="608">evaluate to</text>
+
+  <path class="line" d="M 915 520 C 915 610, 770 625, 635 665"/>
+  <rect class="label-bg" x="786" y="576" width="108" height="31"/>
+  <text class="label" x="840" y="599">reference</text>
+
+  <rect class="box" x="425" y="665" width="250" height="100"/>
+  <text class="node" x="550" y="725">Objects</text>
+
+  <path class="line" d="M 485 765 C 455 820, 300 820, 235 875"/>
+  <path class="line" d="M 550 765 L 550 875"/>
+  <path class="line" d="M 615 765 C 645 820, 800 820, 865 875"/>
+
+  <rect class="box" x="105" y="875" width="260" height="105"/>
+  <text class="node" x="235" y="938">Type</text>
+
+  <rect class="box" x="420" y="875" width="260" height="105"/>
+  <text class="node" x="550" y="925">Value</text>
+  <text class="detail" x="550" y="955">or state</text>
+
+  <rect class="box" x="735" y="875" width="260" height="105"/>
+  <text class="node" x="865" y="925">Identity</text>
+  <text class="detail" x="865" y="955">reported by id()</text>
+</svg>
