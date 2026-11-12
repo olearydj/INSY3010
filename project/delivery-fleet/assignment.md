@@ -109,14 +109,67 @@ Describe a specific change in your understanding and an implementation decision 
 
 The reflection is graded on technical correctness, evidence from your submitted work, and the reasoning behind your conclusions. All four tasks contribute to these sections.
 
-| Reflection section | Correctness | Specific evidence | Reasoning and interpretation | Total |
-|---|---:|---:|---:|---:|
-| Database structure | 8 | 4 | 3 | 15 |
-| SQL and Python implementations | 10 | 8 | 7 | 25 |
-| Energy analysis | 8 | 6 | 6 | 20 |
-| Verification and debugging | 5 | 6 | 4 | 15 |
-| File output and error handling | 6 | 5 | 4 | 15 |
-| Learning, decisions, and assistance | 2 | 4 | 4 | 10 |
-| **Total** | **39** | **33** | **28** | **100** |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th scope="col" style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: left; background-color: #eeeeee; width: 40%;">Reflection section</th>
+      <th scope="col" style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center; background-color: #eeeeee; width: 13%;">Correctness</th>
+      <th scope="col" style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center; background-color: #eeeeee; width: 14%;">Evidence</th>
+      <th scope="col" style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center; background-color: #eeeeee; width: 22%;">Reasoning</th>
+      <th scope="col" style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center; background-color: #eeeeee; width: 11%;">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row" style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: left; font-weight: normal;">Database structure</th>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">8</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">4</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">3</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">15</td>
+    </tr>
+    <tr>
+      <th scope="row" style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: left; font-weight: normal;">SQL and Python implementations</th>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">10</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">8</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">7</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">25</td>
+    </tr>
+    <tr>
+      <th scope="row" style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: left; font-weight: normal;">Energy analysis</th>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">8</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">6</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">6</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">20</td>
+    </tr>
+    <tr>
+      <th scope="row" style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: left; font-weight: normal;">Verification and debugging</th>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">5</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">6</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">4</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">15</td>
+    </tr>
+    <tr>
+      <th scope="row" style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: left; font-weight: normal;">File output and error handling</th>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">6</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">5</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">4</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">15</td>
+    </tr>
+    <tr>
+      <th scope="row" style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: left; font-weight: normal;">Learning, decisions, and assistance</th>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">2</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">4</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">4</td>
+      <td style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center;">10</td>
+    </tr>
+    <tr>
+      <th scope="row" style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: left; background-color: #eeeeee;">Total</th>
+      <th style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center; background-color: #eeeeee;">39</th>
+      <th style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center; background-color: #eeeeee;">33</th>
+      <th style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center; background-color: #eeeeee;">28</th>
+      <th style="border: 1px solid #b8b8b8; padding: 10px 12px; text-align: center; background-color: #eeeeee;">100</th>
+    </tr>
+  </tbody>
+</table>
 
 Full credit requires accurate explanations, reproducible evidence, and justified decisions. Incomplete explanations and weak evidence receive partial credit. Unsupported claims and generic discussion earn little credit. Your notebook and reflection should tell a consistent account of the work.
